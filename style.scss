@@ -6,7 +6,7 @@
 }
 
 header{
-    height: 20vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ header{
 
 main{
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     border: solid red 2px;
     display: flex;
     align-items: center;
@@ -28,22 +28,32 @@ main{
     padding: 2em;
 
     h2{
+        border: solid green;
         font-size: 1.5rem;
     };
 
     p{
+        border: solid cyan;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    img{
-        width: 300px;
-    }
+    // img{
+    //     width: 300px;
+    // }
 
     .divergent{
         border: solid purple 2px;
         display: flex;
+
+        .boxSass{
+            border: solid orangered;
+        }
+
+        .boxScss{
+            border: solid yellow;
+        }
 
         figcaption{
             font-size: .8rem;
