@@ -33,6 +33,7 @@ main p {
   justify-content: center;
   align-items: center;
   text-align: justify;
+  font-size: 1.2rem;
 }
 main .divergent {
   display: flex;
