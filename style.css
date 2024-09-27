@@ -68,7 +68,7 @@ main .divergent figure {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: columnx;
+  flex-direction: column;
 }
 main .divergent figure img {
   width: 200px;
