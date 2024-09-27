@@ -28,25 +28,44 @@ main {
 main h2 {
   border: solid green;
   font-size: 1.5rem;
+  margin: 2rem;
 }
 main p {
   border: solid cyan;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: justify;
 }
 main .divergent {
   border: solid purple 2px;
   display: flex;
+  justify-content: space-around;
 }
 main .divergent .boxSass {
   border: solid orangered;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 main .divergent .boxScss {
   border: solid yellow;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 main .divergent figcaption {
   font-size: 0.8rem;
   border: solid pink 2px;
-  width: 50%;
+  text-align: center;
+}
+main .divergent figure {
+  padding: 1rem;
+}
+main .divergent figure img {
+  width: 200px;
 }/*# sourceMappingURL=style.css.map */

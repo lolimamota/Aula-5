@@ -30,6 +30,7 @@ main{
     h2{
         border: solid green;
         font-size: 1.5rem;
+        margin: 2rem;
     };
 
     p{
@@ -37,6 +38,7 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: justify;
     }
 
     // img{
@@ -46,19 +48,42 @@ main{
     .divergent{
         border: solid purple 2px;
         display: flex;
+        justify-content: space-around;
 
         .boxSass{
             border: solid orangered;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            // img{
+            //     width: 200px;
+            // }
         }
 
         .boxScss{
             border: solid yellow;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            // img{
+            //     width: 200px;
+            // }
         }
 
         figcaption{
             font-size: .8rem;
             border: solid pink 2px;
-            width: 50%;
+            text-align: center;
+        }
+        figure{
+            padding: 1rem;
+            img{
+            width: 200px;
+            }
         }
     }
 }
