@@ -65,6 +65,10 @@ main .divergent figcaption {
 }
 main .divergent figure {
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: columnx;
 }
 main .divergent figure img {
   width: 200px;
