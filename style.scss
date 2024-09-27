@@ -21,20 +21,17 @@ header{
 main{
     width: 100%;
     height: 80vh;
-    border: solid red 2px;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 2em;
 
     h2{
-        border: solid green;
         font-size: 1.5rem;
         margin: 2rem;
     };
 
     p{
-        border: solid cyan;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -46,37 +43,27 @@ main{
     // }
 
     .divergent{
-        border: solid purple 2px;
         display: flex;
         justify-content: space-around;
 
         .boxSass{
-            border: solid orangered;
             width: 40%;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            // img{
-            //     width: 200px;
-            // }
         }
 
         .boxScss{
-            border: solid yellow;
             width: 40%;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            // img{
-            //     width: 200px;
-            // }
         }
 
         figcaption{
             font-size: .8rem;
-            border: solid pink 2px;
             text-align: center;
         }
         figure{
