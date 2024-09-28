@@ -67,4 +67,11 @@ main .divergent figure {
 main .divergent figure img {
   width: 200px;
   margin: 0.5rem;
+}
+main .italic {
+  font-style: italic;
+}
+main a {
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
