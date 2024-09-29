@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
+  background-color: rgb(200, 195, 195);
 }
 
 header {
@@ -35,17 +36,15 @@ main p {
   text-align: justify;
   font-size: 1.2rem;
 }
+main a {
+  text-decoration: none;
+  color: black;
+}
 main .divergent {
   display: flex;
   justify-content: space-around;
 }
-main .divergent .boxSass {
-  width: 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+main .divergent .boxSass,
 main .divergent .boxScss {
   width: 40%;
   display: flex;
@@ -68,10 +67,22 @@ main .divergent figure img {
   width: 200px;
   margin: 0.5rem;
 }
-main .italic {
+main .divergent .italic {
   font-style: italic;
 }
-main a {
-  text-decoration: none;
-  color: black;
+
+footer .contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .github,
+footer .linkedin {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+footer .github img,
+footer .linkedin img {
+  width: 50px;
 }/*# sourceMappingURL=style.css.map */
